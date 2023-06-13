@@ -1,0 +1,111 @@
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$gravishBlue: hsl(217, 19%, 38%);
+$darkGravishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+@font-face {
+    font-family: Manrope;
+    src: url('./Manrope-VariableFont_wght.ttf');
+}
+
+$font: Manrope;
+
+.attribution { 
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px; 
+    color: $lightCyan;
+    text-align: center; 
+    a { 
+        color: $neonGreen; 
+    }
+}
+
+* {
+    &::selection {
+        background: $neonGreen;
+        color: $lightCyan;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: $darkBlue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Manrope;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    @media screen and (max-width: 640px) {
+        max-width: 600px;
+    }
+    max-width: 700px;
+    text-align: center;
+    color: $lightCyan;
+    font-size: 0.7rem;
+    position: relative;
+    padding: 20px 30px 100px 30px;
+
+    p {
+        padding: 20px;
+        font-size: 0.7rem;
+        color: $neonGreen;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+    
+
+    .after {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        transform: translateX(-50%);
+        @media screen and (max-width: 350px) {
+            width: 90%;
+        }
+    }
+
+    .green {
+        display: flex;
+        align-items: center;
+        background: $neonGreen;
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -25px;
+        border-radius: 50%;
+        transition: 0.6s;
+        cursor: pointer;
+        &:hover {
+            background: $lightCyan;
+        }
+        -webkit-user-select: none; /* Désactive la sélection pour Safari */
+        -moz-user-select: none; /* Désactive la sélection pour Firefox */
+        -ms-user-select: none; /* Désactive la sélection pour Internet Explorer */
+        user-select: none; /* Désactive la sélection pour les autres navigateurs */
+        
+    }
+
+    background: $darkGravishBlue;
+}
