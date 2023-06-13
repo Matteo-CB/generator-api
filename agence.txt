@@ -1,6 +1,1 @@
-J'ai récemment découvert l'un de vos sites web réalisés et en tant que développeur JavaScript React, le fait que vous ayez une section dédiée au recrutement a retenu mon attention depuis un moment, j'ai continué à me former en autonomie et à réaliser plusieurs projets personnels. Aujourd'hui, je suis particulièrement enthousiaste à l'idée de rejoindre votre équipe et de contribuer à des projets similaires.
-Ma solide expérience dans la création de projets personnels d'interfaces utilisateur interactives pour des sites vitrines, combinée à ma maîtrise de JavaScript et de React, pourra être un atout significatif pour votre agence.
-
-Voici un exemple d'un projet que j'ai réaliser récemment : https://ecommerce-seven-ruddy.vercel.app/
-
-Je suis impatient d'échanger avec vous sur les possibilités de collaboration et de discuter plus en détail de ma candidature. Je reste disponible pour fournir des informations complémentaires sur mes compétences et mon expérience.
+error
